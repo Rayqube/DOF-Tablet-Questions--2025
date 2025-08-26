@@ -94,7 +94,6 @@ public class NavigationController : MonoBehaviour
 
     public void RestartFlow()
     {
-        if (!CanClick()) return;
         OpenPage(0);
     }
 

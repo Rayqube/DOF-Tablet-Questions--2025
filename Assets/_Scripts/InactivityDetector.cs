@@ -10,7 +10,7 @@ public class InactivityDetector : MonoBehaviour
     [SerializeField] private float inactivityThreshold;
     [SerializeField] private bool isUserActive = true;
     [SerializeField] private bool isActive = true;
-
+    public NavigationController navigationController;
     [System.Serializable]
     public class SettingsData
     {
@@ -62,7 +62,7 @@ public class InactivityDetector : MonoBehaviour
                 {
                     try
                     {
-                        PagesController.Instance.RestartFlow();
+                        navigationController.RestartFlow();
                     }
                     catch { }
                     isUserActive = false;

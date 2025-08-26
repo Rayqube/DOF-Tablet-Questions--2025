@@ -1866,7 +1866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 279753204}
   - component: {fileID: 279753206}
-  - component: {fileID: 279753205}
+  - component: {fileID: 279753207}
   m_Layer: 5
   m_Name: Flower1
   m_TagString: Untagged
@@ -1893,7 +1893,15 @@ RectTransform:
   m_AnchoredPosition: {x: 940, y: -550}
   m_SizeDelta: {x: 448, y: 642}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &279753205
+--- !u!222 &279753206
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279753203}
+  m_CullTransparentMesh: 1
+--- !u!114 &279753207
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1902,7 +1910,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 279753203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -1913,24 +1921,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d4c585ded9b5bd44688e49ba31882d64, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &279753206
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279753203}
-  m_CullTransparentMesh: 1
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &286853911
 GameObject:
   m_ObjectHideFlags: 0
@@ -4833,6 +4830,7 @@ GameObject:
   - component: {fileID: 816841873}
   - component: {fileID: 816841874}
   - component: {fileID: 816841875}
+  - component: {fileID: 816841876}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -4871,6 +4869,7 @@ MonoBehaviour:
   inactivityThreshold: 0
   isUserActive: 1
   isActive: 1
+  navigationController: {fileID: 816841874}
 --- !u!114 &816841874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4907,6 +4906,79 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickCooldown: 2
+--- !u!114 &816841876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816841870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e46ba0b57a371984ab7b1a6dd66356a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayImage: {fileID: 279753207}
+  imageTextures:
+  - {fileID: 2800000, guid: 8fb9c379505c64a4d9b2de9dee6091cf, type: 3}
+  - {fileID: 2800000, guid: d57252bd58bab5f4b8f99b0b0c5c92f5, type: 3}
+  - {fileID: 2800000, guid: 37786f8c3c6f3234ca1fc0cccae59de2, type: 3}
+  - {fileID: 2800000, guid: 86505968fdef9b2498dacf21a295608b, type: 3}
+  - {fileID: 2800000, guid: 1701db17c956f42409c5ba0251d357fc, type: 3}
+  - {fileID: 2800000, guid: 465e05b52aedea64f86dad27a572e5f4, type: 3}
+  - {fileID: 2800000, guid: a362ca5f09aff0f4bbfbbf3fc2ff97ab, type: 3}
+  - {fileID: 2800000, guid: 96a7d7d74ce0c0145925c3a010009b18, type: 3}
+  - {fileID: 2800000, guid: d5dc86224dec78441b84384e29c8f8ca, type: 3}
+  - {fileID: 2800000, guid: bf01a3d5a9be60140910fcabcfb4cff3, type: 3}
+  - {fileID: 2800000, guid: 38e8ecb6764cac1408ef8dee9002ca05, type: 3}
+  - {fileID: 2800000, guid: 59df6971d746cf24b801452e4246bbf9, type: 3}
+  - {fileID: 2800000, guid: 561757d96bbdf2b4f830599f8b0dcdf0, type: 3}
+  - {fileID: 2800000, guid: d7eb884dfb72d47479d8eaeb8bd236eb, type: 3}
+  - {fileID: 2800000, guid: a50cdc8f601eb9241a63cfa5331f839d, type: 3}
+  - {fileID: 2800000, guid: fcfa8d5ee2fdefe4bacaffe2bf7b9eec, type: 3}
+  - {fileID: 2800000, guid: 2ca864cdc5101a4458979220b789af0a, type: 3}
+  - {fileID: 2800000, guid: 7778c3e1d917c7a4f9c67dbf595c842b, type: 3}
+  - {fileID: 2800000, guid: ac918a9b0f1e07c4ea2f03117118689f, type: 3}
+  - {fileID: 2800000, guid: 9264055dda2884e4da43cba7779495ef, type: 3}
+  - {fileID: 2800000, guid: f69c57e1a80c5dc428e507eb5d6a1832, type: 3}
+  - {fileID: 2800000, guid: 544481b438428194c90307de05111341, type: 3}
+  - {fileID: 2800000, guid: bb7af90bb3e3d0d479bc6b6a47b53f0c, type: 3}
+  - {fileID: 2800000, guid: 5e772a98321b2ff4a8a800686d03639a, type: 3}
+  - {fileID: 2800000, guid: 3bdb9edad3ad2b24f83a8b288e5db32a, type: 3}
+  - {fileID: 2800000, guid: be70cbdd7c4ccd842a1accbe3fb1d39e, type: 3}
+  - {fileID: 2800000, guid: dd54f40005446c64398752893042466d, type: 3}
+  qrCodeImage: {fileID: 1024969559}
+  qrCodeTextures:
+  - {fileID: 2800000, guid: 0f0801b35b2b20b41aef4610616d8810, type: 3}
+  - {fileID: 2800000, guid: a58dcadb68de350409653ee8be96e0d5, type: 3}
+  - {fileID: 2800000, guid: a080f09e99301584aade0c9780ea8589, type: 3}
+  - {fileID: 2800000, guid: 77c88e61ecf23934d87c9c441af75f60, type: 3}
+  - {fileID: 2800000, guid: f7f545d3e37f3074cbac1d11baa03ecc, type: 3}
+  - {fileID: 2800000, guid: eb8ea0bdde474c347ac5b66b2270c5a9, type: 3}
+  - {fileID: 2800000, guid: 1a9f4927543f3f54b97acd27532b4dfe, type: 3}
+  - {fileID: 2800000, guid: 3b9d61f44d54fc04eb68ee8043efd036, type: 3}
+  - {fileID: 2800000, guid: b6c7794dd32ebec46856c2b5d583fb52, type: 3}
+  - {fileID: 2800000, guid: cc15a2767c3dcdd499fd6e21772e9925, type: 3}
+  - {fileID: 2800000, guid: 4e9279aa8c3fc5c40abc5689303480b7, type: 3}
+  - {fileID: 2800000, guid: 3cd096abc81371d4aa98bb5ead874d78, type: 3}
+  - {fileID: 2800000, guid: bd862fc97f9043e478d33dcac334415d, type: 3}
+  - {fileID: 2800000, guid: c8c147ff9c760024495b303af15aa3d1, type: 3}
+  - {fileID: 2800000, guid: b956d2432aa631944887159d0223fd99, type: 3}
+  - {fileID: 2800000, guid: 6d7fe2c482e02154c9af729aca7b7131, type: 3}
+  - {fileID: 2800000, guid: e79244f386229b84fbd721dfaf0ad15b, type: 3}
+  - {fileID: 2800000, guid: 0454e1f65b1f25d4ba400e533a19a550, type: 3}
+  - {fileID: 2800000, guid: 4ec6dfdf13f50ca4a91bf46b176609a9, type: 3}
+  - {fileID: 2800000, guid: 65bc045904ab9fc4b8253662b67120e4, type: 3}
+  - {fileID: 2800000, guid: 34c04c7ae11c7d04081ead4f3ad82a9f, type: 3}
+  - {fileID: 2800000, guid: 1f85ee5d15bbe0f4eb303dd186b2a80a, type: 3}
+  - {fileID: 2800000, guid: 8782b20a20bf7c047ba5894d2239edc4, type: 3}
+  - {fileID: 2800000, guid: 3e24693dfdb9b0741abd61ce0fc3aa4e, type: 3}
+  - {fileID: 2800000, guid: d99ea5a8385e5f64f9760205c4b79c9a, type: 3}
+  - {fileID: 2800000, guid: 5fd437de12a8186459b1c75f52860e85, type: 3}
+  - {fileID: 2800000, guid: 8bf6c0a7362dd6e4ea59aacf8b1a375f, type: 3}
+  navigationController: {fileID: 816841874}
+  idleTime: 15
+  answers: 000000000000000000000000
 --- !u!1 &818686793
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,6 +5071,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 816841876}
+        m_TargetAssemblyTypeName: AnswerBasedRawImage, Assembly-CSharp
+        m_MethodName: SetAnswerForQuestion2
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5254,6 +5338,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 816841876}
+        m_TargetAssemblyTypeName: AnswerBasedRawImage, Assembly-CSharp
+        m_MethodName: SetAnswerForQuestion2
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5897,6 +5993,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 816841876}
+        m_TargetAssemblyTypeName: AnswerBasedRawImage, Assembly-CSharp
+        m_MethodName: SetAnswerForQuestion1
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1011713722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5945,7 +6053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1024969556}
   - component: {fileID: 1024969558}
-  - component: {fileID: 1024969557}
+  - component: {fileID: 1024969559}
   m_Layer: 5
   m_Name: QR
   m_TagString: Untagged
@@ -5974,36 +6082,6 @@ RectTransform:
   m_AnchoredPosition: {x: 166, y: -592}
   m_SizeDelta: {x: 252, y: 253}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1024969557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024969555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 76a0eb13eeb222c45992e1f6208b0a9c, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1024969558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6012,6 +6090,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024969555}
   m_CullTransparentMesh: 1
+--- !u!114 &1024969559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024969555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7019608, g: 0.5686275, b: 0.54901963, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &1034675302
 GameObject:
   m_ObjectHideFlags: 0
@@ -6279,6 +6384,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 816841876}
+        m_TargetAssemblyTypeName: AnswerBasedRawImage, Assembly-CSharp
+        m_MethodName: SetAnswerForQuestion1
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7726,9 +7843,9 @@ RectTransform:
   - {fileID: 1414643931}
   - {fileID: 1566630565}
   - {fileID: 262074744}
-  - {fileID: 878497311}
   - {fileID: 2004222798}
   - {fileID: 818686794}
+  - {fileID: 878497311}
   m_Father: {fileID: 564763747}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -7899,6 +8016,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 816841876}
+        m_TargetAssemblyTypeName: AnswerBasedRawImage, Assembly-CSharp
+        m_MethodName: SetAnswerForQuestion0
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8885,7 +9014,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1507051142
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8902,9 +9031,9 @@ RectTransform:
   - {fileID: 1809453352}
   - {fileID: 2066963087}
   - {fileID: 1855824670}
-  - {fileID: 1596205404}
   - {fileID: 1286561377}
   - {fileID: 1856236036}
+  - {fileID: 1596205404}
   m_Father: {fileID: 564763747}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -8968,7 +9097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1517634966
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9266,6 +9395,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 816841876}
+        m_TargetAssemblyTypeName: AnswerBasedRawImage, Assembly-CSharp
+        m_MethodName: SetAnswerForQuestion1
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1567530077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9391,6 +9532,18 @@ MonoBehaviour:
       - m_Target: {fileID: 816841874}
         m_TargetAssemblyTypeName: NavigationController, Assembly-CSharp
         m_MethodName: OpenInstantPage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 816841876}
+        m_TargetAssemblyTypeName: AnswerBasedRawImage, Assembly-CSharp
+        m_MethodName: SetAnswerForQuestion0
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10000,6 +10153,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 816841876}
+        m_TargetAssemblyTypeName: AnswerBasedRawImage, Assembly-CSharp
+        m_MethodName: SetAnswerForQuestion0
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1856236038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10072,9 +10237,9 @@ RectTransform:
   - {fileID: 1400077197}
   - {fileID: 2086233154}
   - {fileID: 182845770}
-  - {fileID: 1097266666}
   - {fileID: 1567530075}
   - {fileID: 1011713720}
+  - {fileID: 1097266666}
   m_Father: {fileID: 564763747}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -10465,6 +10630,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 816841876}
+        m_TargetAssemblyTypeName: AnswerBasedRawImage, Assembly-CSharp
+        m_MethodName: SetAnswerForQuestion2
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

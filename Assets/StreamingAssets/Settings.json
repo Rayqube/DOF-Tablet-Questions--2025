@@ -1,1 +1,5 @@
-{"vSync":0,"frameRate":60}
+{
+    "vSync": 0,
+    "frameRate": 60,
+    "inactivityThreshold": 20
+}
