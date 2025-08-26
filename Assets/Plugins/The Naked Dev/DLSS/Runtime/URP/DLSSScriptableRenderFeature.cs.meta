@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f0af2abd085f80f4f9a9d752783da070
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262761
+  packageName: DLSS - Upscaling for Unity
+  packageVersion: 1.4.3
+  assetPath: Assets/The Naked Dev/DLSS/Runtime/URP/DLSSScriptableRenderFeature.cs
+  uploadId: 701334

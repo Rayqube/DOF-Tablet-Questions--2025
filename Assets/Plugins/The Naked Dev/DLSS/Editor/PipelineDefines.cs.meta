@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 89e77e8e9fcc6c946b0660d2dcafe2ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262761
+  packageName: DLSS - Upscaling for Unity
+  packageVersion: 1.4.4
+  assetPath: Assets/Plugins/The Naked Dev/DLSS/Editor/PipelineDefines.cs
+  uploadId: 756938

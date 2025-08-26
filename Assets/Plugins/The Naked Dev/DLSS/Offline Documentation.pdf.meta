@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 451a79a0868f7eb4dba562e6713bc37c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262761
+  packageName: DLSS - Upscaling for Unity
+  packageVersion: 1.4.3
+  assetPath: Assets/The Naked Dev/DLSS/Offline Documentation.pdf
+  uploadId: 701334

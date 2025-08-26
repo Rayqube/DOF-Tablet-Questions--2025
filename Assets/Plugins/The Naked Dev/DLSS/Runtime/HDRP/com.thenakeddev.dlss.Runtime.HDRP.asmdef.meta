@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ed28b16a94988a544960915d0bbcfcfe
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262761
+  packageName: DLSS - Upscaling for Unity
+  packageVersion: 1.4.4
+  assetPath: Assets/Plugins/The Naked Dev/DLSS/Runtime/HDRP/com.thenakeddev.dlss.Runtime.HDRP.asmdef
+  uploadId: 756938

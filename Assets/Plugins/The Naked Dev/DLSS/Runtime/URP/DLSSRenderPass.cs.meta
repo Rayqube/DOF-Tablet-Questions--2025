@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 18eae5b8237e6244b8ff32bc724ed536
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262761
+  packageName: DLSS - Upscaling for Unity
+  packageVersion: 1.4.3
+  assetPath: Assets/The Naked Dev/DLSS/Runtime/URP/DLSSRenderPass.cs
+  uploadId: 701334

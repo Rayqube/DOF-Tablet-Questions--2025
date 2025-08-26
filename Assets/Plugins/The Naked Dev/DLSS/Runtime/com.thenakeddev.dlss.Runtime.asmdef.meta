@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ee5df7fffe3b9b5429074cc8503d1844
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 262761
+  packageName: DLSS - Upscaling for Unity
+  packageVersion: 1.4.4
+  assetPath: Assets/Plugins/The Naked Dev/DLSS/Runtime/com.thenakeddev.dlss.Runtime.asmdef
+  uploadId: 756938
