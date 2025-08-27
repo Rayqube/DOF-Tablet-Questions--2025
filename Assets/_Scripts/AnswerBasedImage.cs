@@ -2,15 +2,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class AnswerBasedRawImage : MonoBehaviour
+public class AnswerBasedImage : MonoBehaviour
 {
     [Header("Main Image Settings")]
-    public RawImage displayImage;
-    public Texture[] imageTextures; // Should contain exactly 27 textures
+    public Image displayImage;
+    public Sprite[] imageSprites; // Should contain exactly 27 sprites
 
     [Header("QR Code Settings")]
-    public RawImage qrCodeImage;
-    public Texture[] qrCodeTextures; // Should contain exactly 27 QR code textures
+    public Image qrCodeImage;
+    public Sprite[] qrCodeSprites; // Should contain exactly 27 QR code sprites
     public NavigationController navigationController;
 
     [Header("Idle Mode Settings")]
@@ -25,14 +25,14 @@ public class AnswerBasedRawImage : MonoBehaviour
     void Start()
     {
         // Validate array sizes
-        if (imageTextures != null && imageTextures.Length != 27)
+        if (imageSprites != null && imageSprites.Length != 27)
         {
-            Debug.LogError("Main texture array must contain exactly 27 textures!");
+            Debug.LogError("Main sprite array must contain exactly 27 sprites!");
         }
 
-        if (qrCodeTextures != null && qrCodeTextures.Length != 27)
+        if (qrCodeSprites != null && qrCodeSprites.Length != 27)
         {
-            Debug.LogError("QR code texture array must contain exactly 27 textures!");
+            Debug.LogError("QR code sprite array must contain exactly 27 sprites!");
         }
 
         // Initialize with default values
@@ -92,19 +92,19 @@ public class AnswerBasedRawImage : MonoBehaviour
         int imageIndex = CalculateImageIndex();
 
         // Update main image
-        if (displayImage != null && imageTextures != null &&
-            imageIndex >= 0 && imageIndex < imageTextures.Length &&
-            imageTextures[imageIndex] != null)
+        if (displayImage != null && imageSprites != null &&
+            imageIndex >= 0 && imageIndex < imageSprites.Length &&
+            imageSprites[imageIndex] != null)
         {
-            displayImage.texture = imageTextures[imageIndex];
+            displayImage.sprite = imageSprites[imageIndex];
         }
 
         // Update QR code image
-        if (qrCodeImage != null && qrCodeTextures != null &&
-            imageIndex >= 0 && imageIndex < qrCodeTextures.Length &&
-            qrCodeTextures[imageIndex] != null)
+        if (qrCodeImage != null && qrCodeSprites != null &&
+            imageIndex >= 0 && imageIndex < qrCodeSprites.Length &&
+            qrCodeSprites[imageIndex] != null)
         {
-            qrCodeImage.texture = qrCodeTextures[imageIndex];
+            qrCodeImage.sprite = qrCodeSprites[imageIndex];
         }
     }
 
