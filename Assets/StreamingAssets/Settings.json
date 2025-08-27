@@ -1,5 +1,5 @@
 {
     "vSync": 0,
     "frameRate": 60,
-    "inactivityThreshold": 20
+    "inactivityThreshold": 60
 }
