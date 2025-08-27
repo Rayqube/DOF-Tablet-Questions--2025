@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Empowered & Inspiring
+  m_text: Empowered & inspiring
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
   m_sharedMaterial: {fileID: 7326046225603852817, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
   farsi: 1
-  originalText: Bold & Dramatic
+  originalText: Empowered & inspiring
   fixTags: 1
   forceFix: 0
 --- !u!222 &205458
@@ -4309,7 +4309,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &617850143
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4515,8 +4515,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\uFEE3\uFEAE\uFEA3\uFE92\uFE8E\u064B \uFE91\uFEDA \uFED3\uFEF2 \uFE97\uFEA0\uFEAE\uFE91\uFE94
-    \uFE97\uFEE8\uFEB4\uFEF4\uFED6 \uFE8D\uFEDF\uFEB0\uFEEB\uFEEE\uFEAD \uFE91\uFE8E\uFEDF\uFEAC\uFEDB\uFE8E\uFE80
-    \uFE8D\uFEFB\uFEBB\uFEC4\uFEE8\uFE8E\uFECB\uFEF2"
+    \uFE97\uFEE8\uFEB4\uFEF4\uFED6 \uFE8D\uFEDF\uFEB0\uFEEB\uFEEE\uFEAD \uFE8D\uFEDF\uFEE4\uFEAA\uFECB\uFEEE\uFEE3\uFE94
+    \uFE91\uFE8E\uFEDF\uFEAC\uFEDB\uFE8E\uFE80 \uFE8D\uFEFB\uFEBB\uFEC4\uFEE8\uFE8E\uFECB\uFEF2"
   m_isRightToLeft: 1
   m_fontAsset: {fileID: 11400000, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
   m_sharedMaterial: {fileID: 7326046225603852817, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
@@ -4590,8 +4590,8 @@ MonoBehaviour:
   preserveNumbers: 0
   farsi: 0
   originalText: "\u0645\u0631\u062D\u0628\u0627\u064B \u0628\u0643 \u0641\u064A \u062A\u062C\u0631\u0628\u0629
-    \u062A\u0646\u0633\u064A\u0642 \u0627\u0644\u0632\u0647\u0648\u0631 \u0628\u0627\u0644\u0630\u0643\u0627\u0621
-    \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A"
+    \u062A\u0646\u0633\u064A\u0642 \u0627\u0644\u0632\u0647\u0648\u0631 \u0627\u0644\u0645\u062F\u0639\u0648\u0645\u0629
+    \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A"
   fixTags: 1
   forceFix: 0
 --- !u!1 &689533371
@@ -4938,15 +4938,15 @@ MonoBehaviour:
   - {fileID: 2800000, guid: fcfa8d5ee2fdefe4bacaffe2bf7b9eec, type: 3}
   - {fileID: 2800000, guid: 2ca864cdc5101a4458979220b789af0a, type: 3}
   - {fileID: 2800000, guid: 7778c3e1d917c7a4f9c67dbf595c842b, type: 3}
+  - {fileID: 2800000, guid: 3bdb9edad3ad2b24f83a8b288e5db32a, type: 3}
+  - {fileID: 2800000, guid: be70cbdd7c4ccd842a1accbe3fb1d39e, type: 3}
+  - {fileID: 2800000, guid: dd54f40005446c64398752893042466d, type: 3}
   - {fileID: 2800000, guid: ac918a9b0f1e07c4ea2f03117118689f, type: 3}
   - {fileID: 2800000, guid: 9264055dda2884e4da43cba7779495ef, type: 3}
   - {fileID: 2800000, guid: f69c57e1a80c5dc428e507eb5d6a1832, type: 3}
   - {fileID: 2800000, guid: 544481b438428194c90307de05111341, type: 3}
   - {fileID: 2800000, guid: bb7af90bb3e3d0d479bc6b6a47b53f0c, type: 3}
   - {fileID: 2800000, guid: 5e772a98321b2ff4a8a800686d03639a, type: 3}
-  - {fileID: 2800000, guid: 3bdb9edad3ad2b24f83a8b288e5db32a, type: 3}
-  - {fileID: 2800000, guid: be70cbdd7c4ccd842a1accbe3fb1d39e, type: 3}
-  - {fileID: 2800000, guid: dd54f40005446c64398752893042466d, type: 3}
   qrCodeImage: {fileID: 1024969559}
   qrCodeTextures:
   - {fileID: 2800000, guid: e063508c17eafdf448c685c123b3011e, type: 3}
@@ -5402,7 +5402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 913237188}
   - component: {fileID: 913237190}
-  - component: {fileID: 913237189}
+  - component: {fileID: 913237191}
   m_Layer: 5
   m_Name: Flower
   m_TagString: Untagged
@@ -5426,10 +5426,18 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780, y: 479}
-  m_SizeDelta: {x: 1711, y: 973}
+  m_AnchoredPosition: {x: 478, y: 229}
+  m_SizeDelta: {x: 1711, y: 622.2}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &913237189
+--- !u!222 &913237190
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913237187}
+  m_CullTransparentMesh: 1
+--- !u!114 &913237191
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5438,7 +5446,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 913237187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -5449,21 +5457,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 8504e67129d2d8740abe15b303506709, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &913237190
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913237187}
-  m_CullTransparentMesh: 1
+  m_Sprite: {fileID: 21300000, guid: 54eb3f15975dff247b6837a6c5cc64f4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &920703278
 GameObject:
   m_ObjectHideFlags: 0
@@ -8490,7 +8493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uFEE3\uFEB8\uFEAE\uFED7\uFE94 \uFEED\uFEE3\uFEE0\uFEEC\uFEE4\uFE94"
+  m_text: "\uFEE3\uFE98\uFEE4\uFEDC\uFEE8\uFE94 \uFEED \uFEE3\uFEE0\uFEEC\uFEE4\uFE94"
   m_isRightToLeft: 1
   m_fontAsset: {fileID: 11400000, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
   m_sharedMaterial: {fileID: 7326046225603852817, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
@@ -9014,7 +9017,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1507051142
 RectTransform:
   m_ObjectHideFlags: 0
