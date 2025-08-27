@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bold & Dramatic
+  m_text: Empowered & Inspiring
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
   m_sharedMaterial: {fileID: 7326046225603852817, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
@@ -3280,8 +3280,8 @@ MonoBehaviour:
     and the style
     that inspires you.
 
-    Answer a few fun questions and let the flowers tell
-    your unique story.'
+    Answer a few fun questions and let the flowers tell your
+    unique story.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
   m_sharedMaterial: {fileID: 7326046225603852817, guid: a302e9f1e08a8ff4693b717a9390753c, type: 2}
@@ -3505,7 +3505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &485424062
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8563,7 +8563,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
   preserveNumbers: 0
   farsi: 1
-  originalText: "\u0645\u0634\u0631\u0642\u0629 \u0648\u0645\u0644\u0647\u0645\u0629"
+  originalText: "\u0645\u062A\u0645\u0643\u0646\u0629 \u0648 \u0645\u0644\u0647\u0645\u0629"
   fixTags: 1
   forceFix: 0
 --- !u!222 &1401274955
@@ -11039,8 +11039,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.809, y: -0.6427}
-  m_SizeDelta: {x: 2957.1123, y: 1859.6011}
+  m_AnchoredPosition: {x: 0, y: 0.00002670288}
+  m_SizeDelta: {x: 2000, y: 2000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053318644
 MonoBehaviour:
